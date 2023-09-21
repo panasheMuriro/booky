@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		15780C2D2ABC96FC00169CDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15780C2C2ABC96FC00169CDD /* main.m */; };
+		15780C3E2ABCBFDB00169CDD /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 15780C3D2ABCBFDB00169CDD /* Book.m */; };
+		15780C422ABCC15300169CDD /* Author.m in Sources */ = {isa = PBXBuildFile; fileRef = 15780C412ABCC15300169CDD /* Author.m */; };
+		15780C462ABCC4ED00169CDD /* LibraryDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 15780C452ABCC4ED00169CDD /* LibraryDAO.m */; };
+		15780C4A2ABCD33800169CDD /* LibraryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15780C492ABCD33800169CDD /* LibraryController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		15780C292ABC96FC00169CDD /* booky */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = booky; sourceTree = BUILT_PRODUCTS_DIR; };
 		15780C2C2ABC96FC00169CDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15780C3C2ABCBFDB00169CDD /* Book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		15780C3D2ABCBFDB00169CDD /* Book.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		15780C402ABCC15300169CDD /* Author.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Author.h; sourceTree = "<group>"; };
+		15780C412ABCC15300169CDD /* Author.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Author.m; sourceTree = "<group>"; };
+		15780C442ABCC4ED00169CDD /* LibraryDAO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryDAO.h; sourceTree = "<group>"; };
+		15780C452ABCC4ED00169CDD /* LibraryDAO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibraryDAO.m; sourceTree = "<group>"; };
+		15780C482ABCD33800169CDD /* LibraryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryController.h; sourceTree = "<group>"; };
+		15780C492ABCD33800169CDD /* LibraryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibraryController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				15780C2C2ABC96FC00169CDD /* main.m */,
+				15780C3C2ABCBFDB00169CDD /* Book.h */,
+				15780C3D2ABCBFDB00169CDD /* Book.m */,
+				15780C402ABCC15300169CDD /* Author.h */,
+				15780C412ABCC15300169CDD /* Author.m */,
+				15780C442ABCC4ED00169CDD /* LibraryDAO.h */,
+				15780C452ABCC4ED00169CDD /* LibraryDAO.m */,
+				15780C482ABCD33800169CDD /* LibraryController.h */,
+				15780C492ABCD33800169CDD /* LibraryController.m */,
 			);
 			path = booky;
 			sourceTree = "<group>";
@@ -118,7 +138,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15780C462ABCC4ED00169CDD /* LibraryDAO.m in Sources */,
+				15780C4A2ABCD33800169CDD /* LibraryController.m in Sources */,
+				15780C3E2ABCBFDB00169CDD /* Book.m in Sources */,
 				15780C2D2ABC96FC00169CDD /* main.m in Sources */,
+				15780C422ABCC15300169CDD /* Author.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
