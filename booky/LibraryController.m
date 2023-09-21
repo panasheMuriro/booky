@@ -9,11 +9,13 @@
 #import "LibraryDAO.h"
 #import "Book.h"
 #import "Author.h"
-
+#import "LibraryView.h"
 @implementation LibraryController
 
 -(void) run{
     LibraryDAO *libraryDao = [LibraryDAO sharedInstance];
+    LibraryView *libraryView = [[LibraryView alloc] init];
+    
     
     Author *author1 = [[Author alloc] initWithName:@"Panashe"];
     Author *author2 = [[Author alloc] initWithName:@"Muriro"];
@@ -25,7 +27,7 @@
     NSArray<Book*> *books = [libraryDao getAllBooks];
     
     for (Book *book in books) {
-        NSLog(@"Book: %@, written by %@", book.title, book.author.name);
+        [libraryView displayBookTitle:book.title authorName:book.author.name];
     }
     
     

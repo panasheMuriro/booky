@@ -12,6 +12,7 @@
 		15780C422ABCC15300169CDD /* Author.m in Sources */ = {isa = PBXBuildFile; fileRef = 15780C412ABCC15300169CDD /* Author.m */; };
 		15780C462ABCC4ED00169CDD /* LibraryDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 15780C452ABCC4ED00169CDD /* LibraryDAO.m */; };
 		15780C4A2ABCD33800169CDD /* LibraryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15780C492ABCD33800169CDD /* LibraryController.m */; };
+		15780C4E2ABCDB3900169CDD /* LibraryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15780C4D2ABCDB3900169CDD /* LibraryView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		15780C452ABCC4ED00169CDD /* LibraryDAO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibraryDAO.m; sourceTree = "<group>"; };
 		15780C482ABCD33800169CDD /* LibraryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryController.h; sourceTree = "<group>"; };
 		15780C492ABCD33800169CDD /* LibraryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibraryController.m; sourceTree = "<group>"; };
+		15780C4C2ABCDB3900169CDD /* LibraryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryView.h; sourceTree = "<group>"; };
+		15780C4D2ABCDB3900169CDD /* LibraryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibraryView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 				15780C452ABCC4ED00169CDD /* LibraryDAO.m */,
 				15780C482ABCD33800169CDD /* LibraryController.h */,
 				15780C492ABCD33800169CDD /* LibraryController.m */,
+				15780C4C2ABCDB3900169CDD /* LibraryView.h */,
+				15780C4D2ABCDB3900169CDD /* LibraryView.m */,
 			);
 			path = booky;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 			files = (
 				15780C462ABCC4ED00169CDD /* LibraryDAO.m in Sources */,
 				15780C4A2ABCD33800169CDD /* LibraryController.m in Sources */,
+				15780C4E2ABCDB3900169CDD /* LibraryView.m in Sources */,
 				15780C3E2ABCBFDB00169CDD /* Book.m in Sources */,
 				15780C2D2ABC96FC00169CDD /* main.m in Sources */,
 				15780C422ABCC15300169CDD /* Author.m in Sources */,
